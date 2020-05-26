@@ -1,0 +1,27 @@
+{
+	"dir" : "ltr",
+	"lang" : "zxx",
+	"name" : "Maqsood Poovadka | Home",
+	"scope" : "/",
+	"display" : "browser",
+	"start_url" : "https://maqsoodpoovadka.tk/",
+	"short_name" : "Maqsood Poovadka",
+	"theme_color" : "transparent",
+	"description" : "",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "https://maqsoodpoovadka.tk/favicon.ico",
+			"sizes": "16x16"
+		},
+		{
+			"src": "https://maqsoodpoovadka.tk/favicon.ico",
+			"sizes": "16x16"
+		}],
+	"url" : "https://maqsoodpoovadka.tk/",
+	"screenshots" : [],
+	"generated" : "true"
+}

@@ -45,6 +45,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link href="//fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
 	<link rel="icon" href="favicon.ico" type="icon" sizes="16x16">
 
+	<!--Progressive Web App-->
+	<link rel='manifest' href='/manifest.json'>
+	<!--//PWA-->
+
 </head>
 <body>
 <!-- navigation section -->
@@ -645,6 +649,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 
 		});
+	</script>
+	<script type="module">
+		import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+		const el = document.createElement('pwa-update');
+		document.body.appendChild(el);
 	</script>
 	<!-- //here ends scrolling icon -->
 </body>
